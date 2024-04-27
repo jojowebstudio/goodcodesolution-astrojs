@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: GoodCode Solution
+  site: 'https://goodcodesolution.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: GoodCode Solution
+    template: '%s — GoodCode Solution'
+  description: "\U0001F680 u Aliado en Tecnología."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: GoodCode Solution
     images:
       - url: '~/assets/images/default.png'
         width: 1200
