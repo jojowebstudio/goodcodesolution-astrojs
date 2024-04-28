@@ -9,6 +9,7 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from '@playform/compress';
+import cookieconsent from "@jop-software/astro-cookieconsent";
 
 import astrowind from './vendor/integration';
 
@@ -71,6 +72,23 @@ export default defineConfig({
 
     astrowind({
       config: "./src/config.yaml"
+    }),
+    cookieconsent({
+      // ...
+      guiOptions: {
+          consentModal: {
+              layout: 'cloud',
+              position: 'bottom center',
+              equalWeightButtons: true,
+              flipButtons: false,
+          },
+          preferencesModal: {
+              layout: "box",
+              position: "right",
+              equalWeightButtons: true,
+              flipButtons: false,
+          },
+      },
     }),
   ],
 
