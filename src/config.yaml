@@ -11,7 +11,7 @@ metadata:
   title:
     default: GoodCode Solution
     template: '%s — GoodCode Solution'
-  description: "\U0001F680 u Aliado en Tecnología."
+  description: "tu Aliado en Tecnología."
   robots:
     index: true
     follow: true
